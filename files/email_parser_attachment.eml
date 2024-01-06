@@ -1,0 +1,38 @@
+MIME-Version: 1.0
+Date: Sat, 6 Jan 2024 17:06:02 -0500
+Message-ID: <CAF=W=+V+YwBxE98mnb39Dkji=Ro16JGFOeASF9AWrH681ZGc7A@mail.gmail.com>
+Subject: email_parser_attachment
+From: Juan Pablo VC <jpv288@gmail.com>
+To: Juan Pablo VC <jpv288@gmail.com>
+Content-Type: multipart/mixed; boundary="000000000000622030060e4e2b5b"
+
+--000000000000622030060e4e2b5b
+Content-Type: multipart/alternative; boundary="00000000000062202f060e4e2b59"
+
+--00000000000062202f060e4e2b59
+Content-Type: text/plain; charset="UTF-8"
+
+Este es un correo para adjuntar en los testeos del proyecto Email Parser.
+
+--00000000000062202f060e4e2b59
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">Este es un correo para adjuntar en los testeos del proyecto Email Parser.<br></div>
+
+--00000000000062202f060e4e2b59--
+--000000000000622030060e4e2b5b
+Content-Type: application/json; name="email-parser-test.json"
+Content-Disposition: attachment; filename="email-parser-test.json"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_lr2m6j210
+Content-ID: <f_lr2m6j210>
+
+ew0KICAiUmVjb3JkcyI6IFsNCiAgICB7DQogICAgICAiZXZlbnRWZXJzaW9uIjogIjEuMCIsDQog
+ICAgICAic2VzIjogew0KICAgICAgICAibWFpbCI6IHsNCiAgICAgICAgICAidGltZXN0YW1wIjog
+IjIwMTUtMDktMTFUMjA6MzI6MzMuOTM2WiIsDQogICAgICAgICAgInNvdXJjZSI6ICI2MTk2NzIz
+MC03QTQ1LTRBOUQtQkVDOS04N0NCQ0YyMjExQzlAZXhhbXBsZS5jb20iLA0KICAgICAgICAgICJt
+ZXNzYWdlSWQiOiAiZDZpaXRvYms3NXVyNDRwOGtkbm5wN2cybjgwMCIsDQogICAgICAgICAgImRl
+c3RpbmF0aW9uIjogWw0KICAgICAgICAgICAgInJlY2lwaWVudEBleGFtcGxlLmNvbSINCiAgICAg
+ICAgICBdLA0KICAgICAgICAgICJoZWFkZXJzVHJ1bmNhdGVkIjogZmFsc2UNCiAgICAgICAgfQ0K
+ICAgICAgfSwNCiAgICAgICJldmVudFNvdXJjZSI6ICJhd3M6c2VzIg0KICAgIH0NCiAgXQ0KfQ==
+--000000000000622030060e4e2b5b--

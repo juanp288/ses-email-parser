@@ -1,0 +1,25 @@
+MIME-Version: 1.0
+Date: Sat, 6 Jan 2024 17:09:12 -0500
+Message-ID: <CAF=W=+XXaQrzP-O6ZjEY9MiogPz5Tw-TQK3V22v29-GtFkiROA@mail.gmail.com>
+Subject: email_parser_link
+From: Juan Pablo VC <jpv288@gmail.com>
+To: Juan Pablo VC <jpv288@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000bde2a5060e4e36ee"
+
+--000000000000bde2a5060e4e36ee
+Content-Type: text/plain; charset="UTF-8"
+
+Este es un correo para adjuntar en los testeos del proyecto Email Parser.
+
+Link: https://pokeapi.co/api/v2/pokemon/pikachu
+
+--000000000000bde2a5060e4e36ee
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Este es un correo para adjuntar en los testeos del proyect=
+o Email Parser.<div><br><div>Link:=C2=A0<a href=3D"https://pokeapi.co/api/v=
+2/pokemon/pikachu">https://pokeapi.co/api/v2/pokemon/pikachu</a></div></div=
+></div>
+
+--000000000000bde2a5060e4e36ee--

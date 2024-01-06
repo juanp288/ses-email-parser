@@ -1,0 +1,56 @@
+MIME-Version: 1.0
+Date: Sat, 6 Jan 2024 17:07:20 -0500
+Message-ID: <CAF=W=+WhBxevMYwj-i0TsOvY0b8FK8PE3VY6sTrBXy=OSn3boQ@mail.gmail.com>
+Subject: email_parser_body
+From: Juan Pablo VC <jpv288@gmail.com>
+To: Juan Pablo VC <jpv288@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000000d5c1d060e4e30d8"
+
+--0000000000000d5c1d060e4e30d8
+Content-Type: text/plain; charset="UTF-8"
+
+Este es un correo para adjuntar en los testeos del proyecto Email Parser.
+
+{
+  "Records": [
+    {
+      "eventVersion": "1.0",
+      "ses": {
+        "mail": {
+          "timestamp": "2015-09-11T20:32:33.936Z",
+          "source": "61967230-7A45-4A9D-BEC9-87CBCF2211C9@example.com",
+          "messageId": "d6iitobk75ur44p8kdnnp7g2n800",
+          "destination": [
+            "recipient@example.com"
+          ],
+          "headersTruncated": false
+        }
+      },
+      "eventSource": "aws:ses"
+    }
+  ]
+}
+
+--0000000000000d5c1d060e4e30d8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Este es un correo para adjuntar en los testeos del proyect=
+o Email Parser.<br><div><br></div><div>{<br>=C2=A0 &quot;Records&quot;: [<b=
+r>=C2=A0 =C2=A0 {<br>=C2=A0 =C2=A0 =C2=A0 &quot;eventVersion&quot;: &quot;1=
+.0&quot;,<br>=C2=A0 =C2=A0 =C2=A0 &quot;ses&quot;: {<br>=C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 &quot;mail&quot;: {<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 &quot;=
+timestamp&quot;: &quot;2015-09-11T20:32:33.936Z&quot;,<br>=C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 &quot;source&quot;: &quot;<a href=3D"mailto:61967230-7A45=
+-4A9D-BEC9-87CBCF2211C9@example.com">61967230-7A45-4A9D-BEC9-87CBCF2211C9@e=
+xample.com</a>&quot;,<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 &quot;messageId=
+&quot;: &quot;d6iitobk75ur44p8kdnnp7g2n800&quot;,<br>=C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 &quot;destination&quot;: [<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 &quot;<a href=3D"mailto:recipient@example.com">recipient@example=
+.com</a>&quot;<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 ],<br>=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 &quot;headersTruncated&quot;: false<br>=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 }<br>=C2=A0 =C2=A0 =C2=A0 },<br>=C2=A0 =C2=A0 =C2=A0 &quot;ev=
+entSource&quot;: &quot;aws:ses&quot;<br>=C2=A0 =C2=A0 }<br>=C2=A0 ]<br>}<br=
+></div></div>
+
+--0000000000000d5c1d060e4e30d8--
