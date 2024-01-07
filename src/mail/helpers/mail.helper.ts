@@ -71,7 +71,7 @@ export class MailHelper {
 
     const parsedEmail = await this.mailParser.getParsedMail(emailContent);
 
-    if (!parsedEmail) throw new Error('No pudimos parsear el email');
+    if (!parsedEmail) throw new Error('Unable to parse the email');
     return parsedEmail;
   }
 }

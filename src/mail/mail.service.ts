@@ -28,8 +28,8 @@ export class MailService {
 
       return null;
     } catch (error) {
-      console.error('Error al buscar JSON en el correo:', error);
-      throw new BadRequestException('No encontramos un JSON en el email');
+      console.error('Error fetching JSON in the mail:', error);
+      throw new BadRequestException('We did not find a JSON in the email');
     }
   }
 }
