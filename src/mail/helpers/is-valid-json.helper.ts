@@ -1,7 +1,7 @@
 export class IsValidJsonHelper {
   /**
-   * Retorna un boleano basado en si es un json valido o no
-   * @param text Contenido a validar
+   * Return a boolean based on whether it is a valid json or not.
+   * @param text Content to validate
    * @returns
    */
   public isValidJson(text: any) {

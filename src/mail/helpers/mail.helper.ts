@@ -13,11 +13,11 @@ export class MailHelper {
   ) {}
 
   /**
-   * Busca archivos con formato json
-   * @param attachments Archivos adjuntos en el correo
-   * @returns Un JSON si lo encuentra
+   * Search for files in json format
+   * @param attachments Attachments in the mail
+   * @returns a JSON if found
    */
-  searchJsonInAttachments(attachments: any[]): any {
+  searchJsonInAttachments(attachments: any[]) {
     for (const attachment of attachments) {
       if (attachment.contentType === 'application/json') {
         return JSON.parse(attachment.content.toString('utf8'));
@@ -27,14 +27,13 @@ export class MailHelper {
   }
 
   /**
-   * Intenta encontrar JSON incrustado directamento
-   * @param body Contenido del correo electronico
-   * @returns Un JSON si lo encuentra
+   * Attempt to find embedded JSON directly
+   * @param body Email content
+   * @returns a JSON if found
    */
-  searchJsonInBody(body: string): Promise<any> {
-    const jsonPattern = /{.*}/s; // Un patrón simple que busca algo que parezca JSON
+  searchJsonInBody(body: string) {
+    const jsonPattern = /{.*}/s;
 
-    // TODO: Validar que sea un json valido y no un { ..algo }
     const match = body.match(jsonPattern);
     if (match) return JSON.parse(match[0]);
 
@@ -42,11 +41,11 @@ export class MailHelper {
   }
 
   /**
-   * Busca una URL que y la consulta, y valida si el response es un json valido
-   * @param body Contenido del correo electronico
-   * @returns Un JSON si lo encuentra
+   * Search for a URL and query, and validate if the response is a valid json.
+   * @param body Email content
+   * @returns a JSON if found
    */
-  async searchJsonLinkAndFetch(body: string): Promise<any> {
+  async searchJsonLinkAndFetch(body: string) {
     const urlPattern = /https?:\/\/[^\s]+/;
     const match = body.match(urlPattern);
 
@@ -57,14 +56,13 @@ export class MailHelper {
   }
 
   /**
-   * Devuelve un Email valido para ser procesado
-   * @param url Ubicacion o enlace del email
+   * Returns a valid email to be processed.
+   * @param url Location or link of the email
    * @returns
    */
   async getEmailParsedContent(url: string) {
-    let emailContent: any;
+    let emailContent;
 
-    // Obtener el correo electrónico (aquí se asume que es un archivo local o una URL)
     if (url.startsWith('http')) {
       emailContent = await this.axiosAdapter.get(url);
     } else {
